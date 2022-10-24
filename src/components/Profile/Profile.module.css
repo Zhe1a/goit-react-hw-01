@@ -1,0 +1,81 @@
+.profile{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    border: 1px solid rgb(146, 146, 146);
+    }
+    .description{
+    background-color: rgb(255, 255, 255);
+    
+    }
+    .avatar{
+      margin-top: 15px;
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+    .name{
+      margin-top: 25px;
+    
+      line-height: 0.9;
+      font-size: 25px;
+      text-align: center;
+      letter-spacing: 0.05em;
+    }
+    .tag{
+      margin-top: 15px;
+      color: rgb(112, 112, 112);
+      line-height: 0.9;
+      font-size: 15px;
+      text-align: center;
+      letter-spacing: 0.05em;
+    
+    }
+    .location{
+      margin-top: 15px;
+      color: rgb(112, 112, 112);
+      line-height: 0.9;
+      font-size: 15px;
+      text-align: center;
+      letter-spacing: 0.05em;
+    
+    }
+    .stats{
+    justify-content: space-evenly;
+      background-color: rgb(226, 224, 224);
+      display: flex;
+      margin-top: 25px;
+    
+    }
+    .label {
+      color: rgb(112, 112, 112);
+      line-height: 1.9;
+      font-size: 15px;
+      text-align: center;
+      letter-spacing: 0.05em;
+
+    margin-right: 15px;
+
+      justify-content: space-around;
+      display: flex;
+    }
+    .quantity{
+       
+        margin-right: 15px;
+        justify-content: space-around;
+    display: flex;
+      line-height: 1.6;
+      font-size: 20px;
+      text-align: center;
+      letter-spacing: 0.03em;
+    }
+
+    .stats li:nth-child(1){
+        border-right: 1px solid rgb(191, 196, 191);
+        height: 60px;
+    }
+    .stats li:nth-child(2){
+        border-right: 1px solid rgb(191, 196, 191);
+        height: 60px;
+    }

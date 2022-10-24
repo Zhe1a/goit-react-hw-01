@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Zhe1a/goit-react-hw-01.git/static/css/main.6b6486bb.css",
+    "main.js": "/Zhe1a/goit-react-hw-01.git/static/js/main.7a23b2e4.js",
+    "index.html": "/Zhe1a/goit-react-hw-01.git/index.html",
+    "main.6b6486bb.css.map": "/Zhe1a/goit-react-hw-01.git/static/css/main.6b6486bb.css.map",
+    "main.7a23b2e4.js.map": "/Zhe1a/goit-react-hw-01.git/static/js/main.7a23b2e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b6486bb.css",
+    "static/js/main.7a23b2e4.js"
+  ]
+}

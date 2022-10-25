@@ -1,8 +1,10 @@
+import PropTypes from "prop-types";
+
 import s from "./Profile.module.css"
 
-function Profile(proto) {
+function Profile(props) {
 
-    const {username, tag,location,avatar,stats} = proto
+    const {username, tag,location,avatar,stats} = props
     return <div className={s.profile}>
     <div className={s.description}>
       <img
@@ -32,4 +34,11 @@ function Profile(proto) {
   </div>
 }
 
+Profile.propTypes = {
+  username: PropTypes.string,
+  avatar: PropTypes.string.isRequired,
+  stats: PropTypes.objectOf(PropTypes.number).isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+}
 export default Profile

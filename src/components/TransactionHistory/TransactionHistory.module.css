@@ -1,0 +1,30 @@
+.transaction-history{
+    margin-left: 25px;
+    width: 850px;
+    justify-content: center;
+ height: 800px;
+    align-items: center;
+border: 1px solid rgb(243, 242, 242);
+
+line-height: 1.5;
+font-size: 20px;
+text-align: center;
+letter-spacing: 0.05em;
+
+}
+
+.transaction-history thead:nth-child(1){
+    background-color: rgb(57, 178, 226);
+    color: rgb(255, 255, 255);
+}
+
+.transaction-history tbody{
+    color: rgb(120, 120, 121);
+}
+td::first-letter {
+    font-size: 100%;
+}
+.transaction-history tr:nth-child(2n){
+
+    background-color: rgb(220, 224, 224);
+}
